@@ -69,7 +69,7 @@ export type SectionId = typeof SectionId[keyof typeof SectionId];
  */
 export const heroData: Hero = {
   imageSrc: heroImage,
-  name: `I'm Tim Baker.`,
+  name: `I'm Rohit.`,
   description: (
       <>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
@@ -337,8 +337,8 @@ export const contact: ContactSection = {
   items: [
     {
       type: ContactType.Email,
-      text: 'reachout@timbaker.me',
-      href: 'mailto:reachout@timbaker.me',
+      text: 'rohithmsasi@gmai.com',
+      href: 'mailto:rohithmsasi@gmai.com',
     },
     {
       type: ContactType.Location,
@@ -348,12 +348,12 @@ export const contact: ContactSection = {
     {
       type: ContactType.Instagram,
       text: '@tbakerx',
-      href: 'https://www.instagram.com/tbakerx/',
+      href: 'https://www.instagram.com/rohit.m.s/',
     },
     {
       type: ContactType.Github,
       text: 'tbakerx',
-      href: 'https://github.com/tbakerx',
+      href: 'https://github.com/Rohitms',
     },
   ],
 };
