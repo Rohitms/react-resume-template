@@ -45,6 +45,7 @@ const ContactForm: FC = memo(() => {
 
   return (
     <form className="grid min-h-[320px] grid-cols-1 gap-y-4" data-netlify="true" method="POST" name="contact" onSubmit={handleSendMessage}>
+     <input  name="form-name" type="hidden" value="contact" />
       <input className={inputClasses} name="name" onChange={onChange} placeholder="Name" required type="text" />
       <input
         autoComplete="email"
