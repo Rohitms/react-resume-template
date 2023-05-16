@@ -263,24 +263,18 @@ export const portfolioItems: PortfolioItem[] = [
  */
 export const education: TimelineItem[] = [
   {
-    date: 'April 2007',
-    location: 'Clown college',
-    title: 'Masters in Beer tasting',
-    content: <p>Describe your experience at school, what you learned, what useful skills you have acquired etc.</p>,
-  },
-  {
-    date: 'March 2003',
-    location: 'School of Business',
-    title: 'What did you study 101',
-    content: <p>Describe your experience at school, what you learned, what useful skills you have acquired etc.</p>,
-  },
+    date: 'March 2018',
+    location: 'Vidya Academy of Science and Technology',
+    title: 'Completed B.Tech, Never Graduated',
+    content: <p>Had fun four years at college learning and making friends.</p>,
+  }
 ];
 
 export const experience: TimelineItem[] = [
   {
-    date: 'March 2010 - Present',
-    location: 'Awesome Development Company',
-    title: 'Senior UX Engineer',
+    date: 'December 2019 – November 2021',
+    location: 'QBurst',
+    title: 'Senior Engineer',
     content: (
       <p>
         Describe work, special projects, notable achievements, what technologies you have been working with, and
@@ -289,13 +283,23 @@ export const experience: TimelineItem[] = [
     ),
   },
   {
-    date: 'March 2007 - February 2010',
-    location: 'Garage Startup Studio',
-    title: 'Junior bug fixer',
+    date: 'December 2019 – November 2021',
+    location: 'Qubicle',
+    title: 'Full stack Developer',
     content: (
       <p>
         Describe work, special projects, notable achievements, what technologies you have been working with, and
         anything else that would be useful for an employer to know.
+      </p>
+    ),
+  },
+  {
+    date: 'January 2019 – November 2019',
+    location: 'Finish Factory',
+    title: 'Lead Developer',
+    content: (
+      <p>
+      Planned and developed an E-commerce website that sells and tracks services from scratch.
       </p>
     ),
   },
