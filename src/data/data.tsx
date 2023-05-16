@@ -44,8 +44,8 @@ import {
  * Page meta data
  */
 export const homePageMeta: HomepageMeta = {
-  title: 'React Resume Template',
-  description: "Example site built with Tim Baker's react resume template",
+  title:  "I'm Rohit" ,
+  description: "Personal webiste of Rohit M Sasi",
 };
 
 /**
@@ -344,17 +344,17 @@ export const contact: ContactSection = {
     },
     {
       type: ContactType.Location,
-      text: 'Victoria BC, Canada',
-      href: 'https://www.google.ca/maps/place/Victoria,+BC/@48.4262362,-123.376775,14z',
+      text: 'Bangalore, India',
+      href: 'https://www.google.com/maps/place/Bengaluru,+Karnataka/@12.9539974,77.6309395',
     },
     {
       type: ContactType.Instagram,
-      text: '@tbakerx',
+      text: '@rohit.m.s',
       href: 'https://www.instagram.com/rohit.m.s/',
     },
     {
       type: ContactType.Github,
-      text: 'tbakerx',
+      text: 'Rohitms',
       href: 'https://github.com/Rohitms',
     },
   ],
@@ -365,7 +365,7 @@ export const contact: ContactSection = {
  */
 export const socialLinks: Social[] = [
   {label: 'Github', Icon: GithubIcon, href: 'https://github.com/Rohitms'},
-  {label: 'Stack Overflow', Icon: StackOverflowIcon, href: 'https://stackoverflow.com/'},
+  // {label: 'Stack Overflow', Icon: StackOverflowIcon, href: 'https://stackoverflow.com/'},
   {label: 'LinkedIn', Icon: LinkedInIcon, href: 'https://www.linkedin.com/in/rohitmsasi/'},
   {label: 'Instagram', Icon: InstagramIcon, href: 'https://www.instagram.com/rohit.m.s/'},
   {label: 'Twitter', Icon: TwitterIcon, href: 'https://twitter.com/rohit_m_s'},
