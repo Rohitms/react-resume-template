@@ -29,16 +29,16 @@ const ContactForm: FC = memo(() => {
     [data],
   );
 
-  const handleSendMessage = useCallback(
-    async (event: React.FormEvent<HTMLFormElement>) => {
-      event.preventDefault();
-      /**
-       * This is a good starting point to wire up your form submission logic
-       * */
-      console.log('Data to send: ', data);
-    },
-    [data],
-  );
+  // const handleSendMessage = useCallback(
+  //   async (event: React.FormEvent<HTMLFormElement>) => {
+  //     event.preventDefault();
+  //     /**
+  //      * This is a good starting point to wire up your form submission logic
+  //      * */
+  //     console.log('Data to send: ', data);
+  //   },
+  //   [data],
+  // );
 
   const inputClasses =
     'bg-neutral-700 border-0 focus:border-0 focus:outline-none focus:ring-1 focus:ring-orange-600 rounded-md placeholder:text-neutral-400 placeholder:text-sm text-neutral-200 text-sm';
