@@ -327,8 +327,8 @@ export const testimonial: TestimonialSection = {
  */
 
 export const contact: ContactSection = {
-  headerText: 'Get in touch.',
-  description: 'Here is a good spot for a message to your readers to let them know how best to reach out to you.',
+  headerText: 'Get in touch with me!',
+  description: 'I would love to connect and hear your thoughts, ideas, or inquiries. Drop me a message using the contact form below. Looking forward to hearing from you!',
   items: [
     {
       type: ContactType.Email,
