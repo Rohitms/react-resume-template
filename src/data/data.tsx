@@ -107,7 +107,7 @@ export const aboutData: About = {
     {label: 'Age', text: '26', Icon: CalendarIcon},
     {label: 'Nationality', text: 'Indian', Icon: FlagIcon},
     {label: 'Interests', text: 'Photography, Tennis, Driving, DIY, Gardening, Travel', Icon: SparklesIcon},
-    {label: 'Study', text: 'University of Victoria', Icon: AcademicCapIcon},
+    {label: 'Study', text: 'Vidya Academy of Science and Technology', Icon: AcademicCapIcon},
     {label: 'Employment', text: 'QBurst', Icon: OfficeBuildingIcon},
   ],
 };
