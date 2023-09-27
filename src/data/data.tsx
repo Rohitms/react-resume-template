@@ -106,7 +106,7 @@ export const aboutData: About = {
     {label: 'Location', text: 'Bangalore, India', Icon: MapIcon},
     {label: 'Age', text: '26', Icon: CalendarIcon},
     {label: 'Nationality', text: 'Indian', Icon: FlagIcon},
-    {label: 'Interests', text: 'Photography, Tennis, Driving, DIY, Gardening, Travel', Icon: SparklesIcon},
+    {label: 'Interests', text: 'Photography, Tennis, Boxing, Driving, DIY, Gardening, Travel', Icon: SparklesIcon},
     {label: 'Study', text: 'Vidya Academy of Science and Technology', Icon: AcademicCapIcon},
     {label: 'Employment', text: 'QBurst', Icon: OfficeBuildingIcon},
   ],
